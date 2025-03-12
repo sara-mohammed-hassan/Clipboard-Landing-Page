@@ -1,0 +1,244 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    border: none;
+    text-decoration: none;
+}
+
+:root {
+    /* Primary Colors */
+    --strong-cyan: hsl(171, 66%, 44%);
+    --light-blue: hsl(233, 100%, 69%);
+
+    /* Neutral Colors */
+    --dark-grayish-blue: hsl(210, 10%, 33%);
+    --grayish-blue: hsl(201, 11%, 66%);
+    --font-family: 'Bai Jamjuree', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-family);
+    background-color: #f5f5f5;
+    color: var(--dark-grayish-blue);
+    text-align: center;
+}
+
+p {
+    color: var(--dark-grayish-blue);
+}
+
+.clipboard-landing-page {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+}
+
+.hero-section {
+    margin: 30px;
+    line-height: 1.2rem;
+}
+
+.hero-section img {
+    padding: 20px;
+    max-width: 100px;
+}
+
+.hero-section h1 {
+
+    font-size: 2.5rem;
+
+}
+
+.hero-section p {
+    margin: 20px;
+}
+
+
+
+.download-buttons button {
+    padding: 12px;
+    margin: 10px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    color: #FBFFE4;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+}
+
+.download-buttons .Download-for-iOS {
+    background-color: var(--strong-cyan);
+    box-shadow: 0 2px 4px var(--strong-cyan);
+
+}
+
+.download-buttons .Download-for-iOS:hover {
+    background-color: hsla(171, 66%, 44%, 0.568);
+
+}
+
+.download-buttons .Download-for-Mac {
+    background-color: var(--light-blue);
+    box-shadow: 0 2px 4px hsl(233, 100%, 69%);
+
+}
+
+.download-buttons .Download-for-Mac:hover {
+    background-color: hsla(233, 100%, 69%, 0.678);
+}
+
+.snippets-section {
+    margin: 50px;
+    line-height: 1.3rem;
+}
+
+.snippets-section h2 {
+    padding-bottom: 20px;
+}
+
+.features-section {
+    display: flex;
+}
+
+.features-section .computer-image img {
+    max-width: 300px;
+    max-height: 300px;
+
+}
+
+.features-section .features-list {
+    margin: 20px;
+    text-align: start;
+    line-height: 1.3rem;
+}
+
+.features-section .features-list div {
+    margin: 20px;
+
+}
+
+.features-section .features-list h3 {
+    padding-bottom: 5px;
+}
+
+.access-section {
+    margin: 0px 60px;
+}
+
+.access-section h2 {
+    padding: 10px;
+}
+
+.access-section p {
+    margin: 10px 20;
+}
+
+.access-section .devices-image img {
+    max-width: 500px;
+    margin: 20px;
+}
+
+.workflow-features {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+
+
+}
+
+.workflow-section>p {
+    padding-top: 10px;
+
+}
+
+.workflow-features .workflow-item img {
+    max-width: 50px;
+    padding: 10px;
+}
+
+.workflow-features .workflow-item h3 {
+    padding: 10px;
+}
+
+.workflow-features .workflow-item p {
+    line-height: 1.3rem;
+}
+
+.logos-section {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+}
+
+.logos-section img {
+    max-width: 80px;
+}
+
+.cta-section {
+    margin: 50px;
+}
+
+.cta-section h2 {
+    padding: 10px;
+}
+
+.cta-section p {
+    line-height: 1.3rem;
+    margin-bottom: 20px;
+}
+
+.footer-section {
+    background-color: hsla(202, 11%, 66%, 0.2);
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.footer-section img {
+    max-width: 40px;
+}
+
+.footer-section .footer-links {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.footer-section .footer-links a {
+    color: var(--dark-grayish-blue);
+    padding: px;
+
+}
+
+.footer-section .footer-links a:hover {
+    color: var(--strong-cyan);
+}
+
+.footer-section .social-media-icons {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+}
+
+.footer-section .social-media-icons .icon {
+    width: 25px;
+    height: 25px;
+    fill: var(--dark-grayish-blue);
+    cursor: pointer;
+    transition: fill 0.3s ease;
+}
+
+.footer-section .social-media-icons .icon:hover {
+    fill: var(--strong-cyan);
+
+}
